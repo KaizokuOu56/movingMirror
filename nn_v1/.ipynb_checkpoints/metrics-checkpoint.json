@@ -1,0 +1,362 @@
+{
+    "N256_L2_ReLU": {
+        "Train Loss": 0.0018737230860861019,
+        "Test Loss": 0.0012951887715607882,
+        "Training Time": 1.4510524272918701,
+        "Epochs": 6
+    },
+    "N256_L2_LeakyReLU": {
+        "Train Loss": 9.801393843372352e-05,
+        "Test Loss": 0.0003122088584350422,
+        "Training Time": 3.4390909671783447,
+        "Epochs": 16
+    },
+    "N256_L2_PReLU": {
+        "Train Loss": 9.252989974629599e-05,
+        "Test Loss": 0.0002530257684411481,
+        "Training Time": 2.4069719314575195,
+        "Epochs": 10
+    },
+    "N256_L2_Sigmoid": {
+        "Train Loss": 9.884706430602819e-05,
+        "Test Loss": 0.0001859739717328921,
+        "Training Time": 1.2552437782287598,
+        "Epochs": 6
+    },
+    "N256_L2_Tanh": {
+        "Train Loss": 8.80318652780261e-05,
+        "Test Loss": 0.00017844494455493987,
+        "Training Time": 2.337998390197754,
+        "Epochs": 10
+    },
+    "N256_L3_ReLU": {
+        "Train Loss": 7.101028210308868e-05,
+        "Test Loss": 0.00012598598015028982,
+        "Training Time": 2.605435371398926,
+        "Epochs": 6
+    },
+    "N256_L3_LeakyReLU": {
+        "Train Loss": 0.00018482209637295455,
+        "Test Loss": 0.00023163894284516573,
+        "Training Time": 2.146822452545166,
+        "Epochs": 7
+    },
+    "N256_L3_PReLU": {
+        "Train Loss": 0.00013673812930937857,
+        "Test Loss": 0.0002526804266963154,
+        "Training Time": 2.638329267501831,
+        "Epochs": 7
+    },
+    "N256_L3_Sigmoid": {
+        "Train Loss": 3.4516969448304734e-05,
+        "Test Loss": 0.00017994942230870948,
+        "Training Time": 2.0135059356689453,
+        "Epochs": 6
+    },
+    "N256_L3_Tanh": {
+        "Train Loss": 0.00034538267576135695,
+        "Test Loss": 0.0005123075526207685,
+        "Training Time": 2.249666213989258,
+        "Epochs": 7
+    },
+    "N256_L4_ReLU": {
+        "Train Loss": 0.00029212939040735366,
+        "Test Loss": 0.00039501938712783156,
+        "Training Time": 3.178440570831299,
+        "Epochs": 6
+    },
+    "N256_L4_LeakyReLU": {
+        "Train Loss": 0.0001925850938714575,
+        "Test Loss": 0.00023701386619359255,
+        "Training Time": 2.7230119705200195,
+        "Epochs": 6
+    },
+    "N256_L4_PReLU": {
+        "Train Loss": 0.00019773217619513162,
+        "Test Loss": 0.0002836862364783883,
+        "Training Time": 4.9906885623931885,
+        "Epochs": 10
+    },
+    "N256_L4_Sigmoid": {
+        "Train Loss": 2.721553029186907e-05,
+        "Test Loss": 0.00021221461798995734,
+        "Training Time": 2.750566244125366,
+        "Epochs": 6
+    },
+    "N256_L4_Tanh": {
+        "Train Loss": 0.0004415253869956359,
+        "Test Loss": 0.0006464681299403309,
+        "Training Time": 4.325186491012573,
+        "Epochs": 10
+    },
+    "N256_L5_ReLU": {
+        "Train Loss": 0.00018571350211277603,
+        "Test Loss": 0.0004302513496950269,
+        "Training Time": 8.306495189666748,
+        "Epochs": 13
+    },
+    "N256_L5_LeakyReLU": {
+        "Train Loss": 0.00010970085396547801,
+        "Test Loss": 0.0002642249057535082,
+        "Training Time": 8.759333372116089,
+        "Epochs": 15
+    },
+    "N256_L5_PReLU": {
+        "Train Loss": 0.0004017335276002996,
+        "Test Loss": 0.0007266119108535349,
+        "Training Time": 3.7132997512817383,
+        "Epochs": 6
+    },
+    "N256_L5_Sigmoid": {
+        "Train Loss": 0.0005742991747101769,
+        "Test Loss": 0.000946703483350575,
+        "Training Time": 5.396363258361816,
+        "Epochs": 9
+    },
+    "N256_L5_Tanh": {
+        "Train Loss": 0.0005190815839450807,
+        "Test Loss": 0.0006801753719337285,
+        "Training Time": 5.819322347640991,
+        "Epochs": 10
+    },
+    "N512_L2_ReLU": {
+        "Train Loss": 0.0007501269306521862,
+        "Test Loss": 0.0007672346588224173,
+        "Training Time": 30.451265335083008,
+        "Epochs": 39
+    },
+    "N512_L2_LeakyReLU": {
+        "Train Loss": 0.0003522768389666453,
+        "Test Loss": 0.0004489904064685106,
+        "Training Time": 45.10490393638611,
+        "Epochs": 59
+    },
+    "N512_L2_PReLU": {
+        "Train Loss": 0.00029094464975059964,
+        "Test Loss": 0.000554240555735305,
+        "Training Time": 22.802673816680908,
+        "Epochs": 29
+    },
+    "N512_L2_Sigmoid": {
+        "Train Loss": 0.00034141013748012483,
+        "Test Loss": 0.0004777527810074389,
+        "Training Time": 11.705566644668579,
+        "Epochs": 15
+    },
+    "N512_L2_Tanh": {
+        "Train Loss": 0.0008216939808335155,
+        "Test Loss": 0.0016899530794471501,
+        "Training Time": 19.159542083740234,
+        "Epochs": 25
+    },
+    "N512_L3_ReLU": {
+        "Train Loss": 0.0005484564903308637,
+        "Test Loss": 0.0008198708328418433,
+        "Training Time": 22.48880100250244,
+        "Epochs": 15
+    },
+    "N512_L3_LeakyReLU": {
+        "Train Loss": 0.0020563604906201362,
+        "Test Loss": 0.002446191439405084,
+        "Training Time": 44.4638774394989,
+        "Epochs": 34
+    },
+    "N512_L3_PReLU": {
+        "Train Loss": 0.0028785701002925633,
+        "Test Loss": 0.0029090564791113137,
+        "Training Time": 39.581974267959595,
+        "Epochs": 30
+    },
+    "N512_L3_Sigmoid": {
+        "Train Loss": 4.9128841696074236e-05,
+        "Test Loss": 0.0002858441520947963,
+        "Training Time": 14.105574369430542,
+        "Epochs": 11
+    },
+    "N512_L3_Tanh": {
+        "Train Loss": 0.00239038104750216,
+        "Test Loss": 0.002692668315023184,
+        "Training Time": 23.009805917739868,
+        "Epochs": 18
+    },
+    "N512_L4_ReLU": {
+        "Train Loss": 0.0004477490829303861,
+        "Test Loss": 0.0007085665366612375,
+        "Training Time": 26.48928451538086,
+        "Epochs": 13
+    },
+    "N512_L4_LeakyReLU": {
+        "Train Loss": 0.00031713616172783076,
+        "Test Loss": 0.0004274179004132748,
+        "Training Time": 51.66735529899597,
+        "Epochs": 30
+    },
+    "N512_L4_PReLU": {
+        "Train Loss": 0.00033446309179998934,
+        "Test Loss": 0.0006119715687818825,
+        "Training Time": 43.72155427932739,
+        "Epochs": 24
+    },
+    "N512_L4_Sigmoid": {
+        "Train Loss": 4.7578494806657545e-05,
+        "Test Loss": 0.0004344015133101493,
+        "Training Time": 141.2217583656311,
+        "Epochs": 84
+    },
+    "N512_L4_Tanh": {
+        "Train Loss": 0.001075467807240784,
+        "Test Loss": 0.0010313210617750883,
+        "Training Time": 21.349773168563843,
+        "Epochs": 12
+    },
+    "N512_L5_ReLU": {
+        "Train Loss": 0.0007128390743164346,
+        "Test Loss": 0.000953703192062676,
+        "Training Time": 66.92643785476685,
+        "Epochs": 26
+    },
+    "N512_L5_LeakyReLU": {
+        "Train Loss": 0.0006660883696749806,
+        "Test Loss": 0.0009732644241303205,
+        "Training Time": 38.4949369430542,
+        "Epochs": 18
+    },
+    "N512_L5_PReLU": {
+        "Train Loss": 0.0006325956316431985,
+        "Test Loss": 0.0010399630111642183,
+        "Training Time": 64.61721086502075,
+        "Epochs": 27
+    },
+    "N512_L5_Sigmoid": {
+        "Train Loss": 0.0025933871129527686,
+        "Test Loss": 0.0029007511511445045,
+        "Training Time": 24.2307231426239,
+        "Epochs": 11
+    },
+    "N512_L5_Tanh": {
+        "Train Loss": 0.0009673847388476134,
+        "Test Loss": 0.001160823902115226,
+        "Training Time": 57.627259969711304,
+        "Epochs": 26
+    },
+    "N1024_L2_ReLU": {
+        "Train Loss": 0.021178528606891633,
+        "Test Loss": 0.04923409563302994,
+        "Training Time": 103.96873021125793,
+        "Epochs": 33
+    },
+    "N1024_L2_LeakyReLU": {
+        "Train Loss": 0.033982457853853704,
+        "Test Loss": 0.17326482027769088,
+        "Training Time": 99.34040904045105,
+        "Epochs": 32
+    },
+    "N1024_L2_PReLU": {
+        "Train Loss": 0.04163106407225132,
+        "Test Loss": 0.10325448566675186,
+        "Training Time": 95.54310417175293,
+        "Epochs": 30
+    },
+    "N1024_L2_Sigmoid": {
+        "Train Loss": 0.0027705275621265173,
+        "Test Loss": 0.0031894636638462545,
+        "Training Time": 73.22831463813782,
+        "Epochs": 25
+    },
+    "N1024_L2_Tanh": {
+        "Train Loss": 0.024475303828716276,
+        "Test Loss": 0.0270817396491766,
+        "Training Time": 212.98915123939514,
+        "Epochs": 71
+    },
+    "N1024_L3_ReLU": {
+        "Train Loss": 0.00482489719055593,
+        "Test Loss": 0.004086331860162318,
+        "Training Time": 324.5817804336548,
+        "Epochs": 55
+    },
+    "N1024_L3_LeakyReLU": {
+        "Train Loss": 0.0011912240276578815,
+        "Test Loss": 0.0014994889022782445,
+        "Training Time": 380.36665415763855,
+        "Epochs": 78
+    },
+    "N1024_L3_PReLU": {
+        "Train Loss": 0.004885769641026855,
+        "Test Loss": 0.0041776907304301855,
+        "Training Time": 101.13935708999634,
+        "Epochs": 21
+    },
+    "N1024_L3_Sigmoid": {
+        "Train Loss": 0.00011803461227100343,
+        "Test Loss": 0.0004181551858782768,
+        "Training Time": 451.9733638763428,
+        "Epochs": 88
+    },
+    "N1024_L3_Tanh": {
+        "Train Loss": 0.0023913855738937856,
+        "Test Loss": 0.004134411711245775,
+        "Training Time": 111.24543738365173,
+        "Epochs": 23
+    },
+    "N1024_L4_ReLU": {
+        "Train Loss": 0.0037113205555360765,
+        "Test Loss": 0.002778675327077508,
+        "Training Time": 302.4439880847931,
+        "Epochs": 35
+    },
+    "N1024_L4_LeakyReLU": {
+        "Train Loss": 0.6009865803718567,
+        "Test Loss": 1.1973223872184753,
+        "Training Time": 571.9100949764252,
+        "Epochs": 86
+    },
+    "N1024_L4_PReLU": {
+        "Train Loss": 0.005107587394304574,
+        "Test Loss": 0.004351676929742098,
+        "Training Time": 273.39126777648926,
+        "Epochs": 41
+    },
+    "N1024_L4_Sigmoid": {
+        "Train Loss": 0.004876848943531513,
+        "Test Loss": 0.0041428274670615795,
+        "Training Time": 157.09973978996277,
+        "Epochs": 24
+    },
+    "N1024_L4_Tanh": {
+        "Train Loss": 0.004373144933953881,
+        "Test Loss": 0.0060403720140457156,
+        "Training Time": 151.7495036125183,
+        "Epochs": 23
+    },
+    "N1024_L5_ReLU": {
+        "Train Loss": 0.0003114865105599165,
+        "Test Loss": 0.0008144120285287499,
+        "Training Time": 747.813798904419,
+        "Epochs": 62
+    },
+    "N1024_L5_LeakyReLU": {
+        "Train Loss": 0.003660011164844036,
+        "Test Loss": 0.005628678543493151,
+        "Training Time": 177.7119846343994,
+        "Epochs": 21
+    },
+    "N1024_L5_PReLU": {
+        "Train Loss": 0.004944605976343155,
+        "Test Loss": 0.004174934641458094,
+        "Training Time": 198.89626479148865,
+        "Epochs": 23
+    },
+    "N1024_L5_Sigmoid": {
+        "Train Loss": 0.004876825051382184,
+        "Test Loss": 0.004143176191486418,
+        "Training Time": 201.63405680656433,
+        "Epochs": 24
+    },
+    "N1024_L5_Tanh": {
+        "Train Loss": 0.005010600021108985,
+        "Test Loss": 0.012917276442050934,
+        "Training Time": 208.62891578674316,
+        "Epochs": 25
+    }
+}
