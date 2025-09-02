@@ -5,5 +5,5 @@ neur_network_merged is the code for a single neural network that learns both the
 neur_network_separate is the code for two networks that learn the real and imaginary factors independently, producing far more accuracy
 
 CURRENT BEST:
-nn_v2
+nn_v2  
 Neural-Operator
