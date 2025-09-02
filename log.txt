@@ -1,0 +1,10 @@
+created datasets of size 256, 512 and 1024 by generating values of functions (randomly chosen) on domain (-1,1) with discretization 1024. generated 2500 such samples.
+for discretization of 512, chose every 2 of the above set, and for 256 every 4. sets were arrays of the form (2500, N) where N is the discretization value.
+on each of these sets, generated fourier transforms using fft.
+all of the csv files have the initial function mapping in the first column (all vals for f1, then f2 ...), then the fourier transform real part in the second, and imaginary in the third.
+
+created nn_v1
+reduced training time by testing loss on test set after every epoch, and if loss didn't improve after a certain number of epochs, training was stopped since assumed overfitting began.
+issues: ignoring possible loss minima at other points by early stopping
+        used test set in place of a validation set, need to split generated data into 3 parts
+recorded metrics of the networks that show ReLU is the best activation function, and it seems that either smaller number of layers is better, or epochs aren't enough.
