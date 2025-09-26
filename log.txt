@@ -8,3 +8,16 @@ reduced training time by testing loss on test set after every epoch, and if loss
 issues: ignoring possible loss minima at other points by early stopping
         used test set in place of a validation set, need to split generated data into 3 parts
 recorded metrics of the networks that show ReLU is the best activation function, and it seems that either smaller number of layers is better, or epochs aren't enough.
+
+modified datasets
+fixed code; the initial code used the same fourier transform for all discretizations, just choosing every 2nd and every 4th for 512 and 256, completely wrong. now generates every discretization separately.
+
+created nn_v2
+modified epoch changing: only changes by 10 every time discretization doubles, and by 4 for every layer, and changes aren't fixed so increment isn't monotonic
+added neural dropout to prevent overfitting
+added scheduler (tool that modifies learning rate) to decrease learning rate when training loss plateaus
+changed the validation loss metric from mse to r2 (r2 ie coefficient of determination is a better model for comparing actual vs predicted function), and only stores the model details of the best r2 recorded throughout training
+metrics now store model name, training loss, validation r2, and r2s for a set of predifined functions
+using test data for computing test_r2, now stores the state_dict() of the 3 best models
+on executing, metrics for all 40 models are recorded, and the 3 best models are logged
+
