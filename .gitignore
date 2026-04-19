@@ -1,0 +1,7 @@
+# Ignore all NumPy archives and PNG images by default.
+# To track a specific file despite this rule, use: git add -f <path>
+
+*.npz
+*.NPZ
+*.png
+*.PNG
